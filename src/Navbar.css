@@ -1,0 +1,21 @@
+.navbar {
+  height: 60px;            /* shrink navbar height */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;         /* horizontal spacing */
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar nav button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.navbar nav button:hover {
+  color: #2563eb; /* blue-600 */
+}

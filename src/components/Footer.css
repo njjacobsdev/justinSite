@@ -1,0 +1,20 @@
+.footer {
+  background-color: #003366; /* dark blue */
+  color: white;
+  padding: 20px 10px;
+  width: 100%;
+}
+
+.footer-content {
+  text-align: left; /* Align text to the left */
+  margin-left: 20px; /* Offset from the left */
+}
+
+.footer a {
+  color: #ffcc00; /* gold accent */
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

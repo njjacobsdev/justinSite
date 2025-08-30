@@ -1,0 +1,61 @@
+.contact-section {
+  background-color: #e6f2ff; 
+  text-align: center; /* centers logo + text */
+  padding: 80px 20px;
+  margin: 0;
+}
+
+.contact-logo {
+  display: block;
+  margin: 0 auto 20px auto; /* centers horizontally */
+  max-width: 180px; /* default max size */
+  width: 100%;      /* lets it shrink on smaller screens */
+  height: auto;     /* keeps aspect ratio */
+}
+
+/* Bigger logo on desktop/tablet */
+@media (min-width: 768px) {
+  .contact-logo {
+    max-width: 600px;
+  }
+}
+
+/* Smaller logo on very small screens */
+@media (max-width: 480px) {
+  .contact-logo {
+    max-width: 250px;
+  }
+}
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #005fa3;
+}
