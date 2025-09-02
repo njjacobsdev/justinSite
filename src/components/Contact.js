@@ -41,7 +41,7 @@ export default function Contact() {
         <input
           type="text"
           name="user_name"
-          placeholder="Your Name"
+          placeholder="Your Name: Lastname Firstname"
           required
           className="contact-input"
         />
